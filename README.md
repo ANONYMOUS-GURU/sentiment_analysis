@@ -18,14 +18,14 @@ You can download the training dataset from the google drive link given here.
 https://drive.google.com/drive/folders/1JbaMolCoqdWw3hI2Yy0Keu5MLjsK6jyv?usp=sharing
 
 Arrange your directory in the given manner.
-https://github.com/ANONYMOUS-GURU/sentiment_analysis/blob/master/dir_str.png
+![](https://github.com/ANONYMOUS-GURU/sentiment_analysis/blob/master/dir_str.png)
 
 ### Outputs
 Next run train.py to train the model which will generate the output_data folder with the tensorboard_logs output_logs and also the pickle tokenizer for inference.The saved_model is also saved in the folder.
 
 
 ## Architecture
-The model architecture can be seen below:
+The model architecture can be seen above.
 ![](https://github.com/ANONYMOUS-GURU/sentiment_analysis/blob/master/codes/model.png)
 
 ## Prediction:
