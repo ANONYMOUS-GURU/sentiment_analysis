@@ -8,7 +8,7 @@ class helper:
 	def __init__(self,PATH,val_frac=0.1):
 		
 		data=pd.read_csv(PATH)
-		data=data.sample(frac=0.001)
+		data=data.sample(frac=1.0)
 		val_size=int(data.shape[0]*val_frac)
 
 		self.val=data.iloc[:val_size,:]
