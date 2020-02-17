@@ -24,7 +24,7 @@ Next run train.py to train the model which will generate the output_data folder 
 
 ## Architecture
 The model architecture can be seen below:
-![]
+![](https://github.com/ANONYMOUS-GURU/sentiment_analysis/blob/master/codes/model.png)
 
 ## Prediction:
 To predict from a saved model use the predict.py function and to generate the predictions.
